@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: test
+  template:
+    metadata:
+      labels:
+        app: test
+    spec:
+      containers:
+        - name: test
+          image: 860082039066.dkr.ecr.ap-south-1.amazonaws.com/react:3d44e8be3f8b22759f58c74525c8e6268d4b3cc1
+          ports:
+            - containerPort: 3000
