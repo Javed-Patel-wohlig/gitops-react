@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: test
-          image: javedpatel007/react-app:v1
+          image: javedpatel007/react-app:b0aaa251f100100c3acd3a05df8b62ae9449a992
           ports:
             - containerPort: 3000
