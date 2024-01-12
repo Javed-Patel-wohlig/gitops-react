@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: test
-          image: 860082039066.dkr.ecr.ap-south-1.amazonaws.com/react:3d44e8be3f8b22759f58c74525c8e6268d4b3cc1
+          image: 860082039066.dkr.ecr.ap-south-1.amazonaws.com/react:aa50bfd2934ed09e189a7decd7b5383fe99d5448
           ports:
             - containerPort: 3000
